@@ -49,7 +49,7 @@ header{
     gap: 20px;
 }
 .listProduct .item{
-    background-color: #EEEEE6;
+    background-color: grey;
     padding: 20px;
     border-radius: 20px;
 }
@@ -63,7 +63,7 @@ header{
 }
 .listProduct .item button{
     background-color: #353432;
-    color: #eee;
+    color: blueviolet;
     border: none;
     padding: 5px 10px;
     margin-top: 10px;
@@ -74,7 +74,7 @@ header{
 .cartTab{
     width: 400px;
     background-color: #353432;
-    color: #eee;
+    color: whitesmoke;
     position: fixed;
     top: 0;
     right: -400px;
@@ -106,7 +106,7 @@ body.showCart .container{
     cursor: pointer;
 }
 .cartTab .close{
-    background-color: #eee;
+    background-color: gray;
 }
 .listCart .item img{
     width: 100%;
@@ -122,14 +122,14 @@ body.showCart .container{
     display: inline-block;
     width: 25px;
     height: 25px;
-    background-color: #eee;
+    background-color: gray;
     border-radius: 50%;
     color: #555;
     cursor: pointer;
 }
 .listCart .quantity span:nth-child(2){
     background-color: transparent;
-    color: #eee;
+    color: grey;
     cursor: auto;
 }
 .listCart .item:nth-child(even){
